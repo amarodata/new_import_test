@@ -1,0 +1,8 @@
+[project]
+name = "quillon"
+version = "2.1.4"
+requires-python = ">=3.11"
+dependencies = ["click", "tomli", "chardet"]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
